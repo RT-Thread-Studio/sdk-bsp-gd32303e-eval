@@ -1,0 +1,80 @@
+board:
+  buy_url_cn: https://detail.tmall.com/item.htm?id=577540513245
+  buy_url_global: https://www.tme.eu/en/details/gd32303e-eval/development-kits-others/gigadevice/
+  debug_interface: SWD
+  debugger: J-Link
+  description_en: GD32303E-EVAL uses GD32F303ZET6 as the main controller. It uses Mini USB interface or DC-005 connector to supply 5V power. SWD, Reset, Boot, User button key, LED, CAN, I2C, I2S, USART, RTC, LCD, SPI, ADC, DAC, EXMC, CTC, SDIO, USBD, GD-Link and Extension Pins are also included.
+  description_zh: 
+GD32303E-EVAL使用GD32F303ZET6作为主控制器。它使用Mini USB接口或DC-005连接器提供5V电源。还包括SWD，复位，引导，用户按钮键，LED，CAN，I2C，I2S，USART，RTC，LCD，SPI，ADC，DAC，EXMC，CTC，SDIO，USBD，GD-Link和扩展引脚。
+  emulator_machine: ''
+  large_image: documents/images/GD32303E_EVAL.jpg
+  name: GD32F303Z-GD-EVAL
+  price_cn: 369 CNY
+  price_global: 125 USD
+  sale_contact_cn: https://detail.tmall.com/item.htm?id=577540513245
+  sale_contact_global: https://www.tme.eu/en/details/gd32303e-eval/development-kits-others/gigadevice/
+  small_image: documents/images/GD32303E_EVAL.jpg
+  vendor: GigaDevice
+  version: 1.0.1
+chip:
+  chip_name: GD32F303ZET6
+  clock_source: HSE
+  device_vendor: GigaDevice
+  family_name: GD32
+  rx_name: PA10
+  series_name: GD32F3
+  source_freq: '8000000'
+  sub_series_name: GD32F303
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/GD32303E-EVAL User Manual-V1.0.pdf
+  title: GD32303E-EVAL-User-Manual
+- category: sheet
+  file: documents/GD32F303xx-Datasheet-Rev1.5.pdf
+  title: GD32F303xx-Datasheet
+example_projects: []
+features:
+- GD32F303ZET6 MCU
+- User LED’s
+- Push Button
+- 2 USART’s
+- Headphone Socket
+features_zh:
+- GD32F303ZET6 MCU
+- User LED’s
+- Push Button
+- 2 USART’s
+- Headphone Socket
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - "*"
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: gd32303e
+  project_name: gd32e03e
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
