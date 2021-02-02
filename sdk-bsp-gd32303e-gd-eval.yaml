@@ -4,8 +4,7 @@ board:
   debug_interface: SWD
   debugger: J-Link
   description_en: GD32303E-EVAL uses GD32F303ZET6 as the main controller. It uses Mini USB interface or DC-005 connector to supply 5V power. SWD, Reset, Boot, User button key, LED, CAN, I2C, I2S, USART, RTC, LCD, SPI, ADC, DAC, EXMC, CTC, SDIO, USBD, GD-Link and Extension Pins are also included.
-  description_zh: 
-GD32303E-EVAL使用GD32F303ZET6作为主控制器。它使用Mini USB接口或DC-005连接器提供5V电源。还包括SWD，复位，引导，用户按钮键，LED，CAN，I2C，I2S，USART，RTC，LCD，SPI，ADC，DAC，EXMC，CTC，SDIO，USBD，GD-Link和扩展引脚。
+  description_zh: GD32303E-EVAL 使用GD32F303ZET6作为主控制器。它使用Mini USB接口或DC-005连接器提供5V电源。还包括SWD，复位，引导，用户按钮键，LED，CAN，I2C，I2S，USART，RTC，LCD，SPI，ADC，DAC，EXMC，CTC，SDIO，USBD，GD-Link和扩展引脚。
   emulator_machine: ''
   large_image: documents/images/GD32303E_EVAL.jpg
   name: GD32F303Z-GD-EVAL
@@ -15,7 +14,7 @@ GD32303E-EVAL使用GD32F303ZET6作为主控制器。它使用Mini USB接口或DC
   sale_contact_global: https://www.tme.eu/en/details/gd32303e-eval/development-kits-others/gigadevice/
   small_image: documents/images/GD32303E_EVAL.jpg
   vendor: GigaDevice
-  version: 1.0.1
+  version: 1.0.0
 chip:
   chip_name: GD32F303ZET6
   clock_source: HSE
